@@ -41,21 +41,21 @@ setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ```
 
 ## 2. Installasi MY-SQL SERVER
- **Langkah 1: 1.	Install mysql server dengan perintah**
+ **Langkah 1:Install mysql server dengan perintah**
 ```
 sudo apt install mysql-server -y
 ```
-**Langkah 2: 2.	Install tumpukan LAMP (Linux, Apache, MySQL, PHP) pada sistem operasi dengan perintah**
+**Langkah 2:Install tumpukan LAMP (Linux, Apache, MySQL, PHP) pada sistem operasi dengan perintah**
 ```
-sudo apt install php libapache2-mod-php phpmysq
+sudo apt install php libapache2-mod-php phpmysql
 ```
-**Langkah 3: 3.	Membuka File Konfigurasi Direktori Apache dengan perintah**
+**Langkah 3:Membuka File Konfigurasi Direktori Apache dengan perintah**
 ```
-sudo nano /etc/apache2/mods-enabled/dir.con
+sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 - Tambahkan "index.php" pada di sebelah kanan "DirectoryIndex"
   
-**Langkah 4: Membuka file bernama “info.php” pada direktori var/www/html**
+**Langkah 4:Membuka file bernama “info.php” pada direktori var/www/html**
 ```
 sudo nano /var/www/html/info.php
 ```
@@ -67,11 +67,34 @@ phpinfo ();
 ?>
 ```
 
-**Langkah 5: CEK KONFIGURASI**
+**Langkah 5:CEK KONFIGURASI**
 - Buka pada google chrome pada windows <ip addres ubuntu server/info.php>
 - cth :192.168.1.3/info.php
   
 ## 3. Installasi APACHE2
+**Langkah 1:Perbarui daftar paket dengan perintah**
+```
+sudo apt update
+```
+
+**Langkah 2:Installasi apache 2 dengan perintah**
+```
+sudo apt install apache2 -y
+```
+- samakan dengan foto di bawah
+
+**Langkah 3:Memulai layanan server apahe2 dengan perintah**
+```
+sudo systemctl start apache2
+```
+**Langkah 4:4.	Lakukan pengecekan ip addres ubuntu server dengan perintah**
+```
+ ip add
+```
+**Langkah 5:5.	Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”**
+- contoh ip saya:192.168.1.3
+  
+## 4. Installasi DATABASE SERVER
 **Langkah 1:Installasi paket mariadb**
 ```
 sudo apt-get update
@@ -83,43 +106,17 @@ sudo apt-get install mariadb-server
 sudo mysql_secure_installation
 ```
 
-**Langkah 3:Memulai layanan server apahe2 dengan perintah**
-```
-sudo systemctl start apache2
-```
-
-**Langkah 4:Lakukan pengecekan ip addres ubuntu server dengan perintah**
-```
-ip add
-```
-**Langkah 5:CEK KONFIGURASI**
-- Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”
-
-## 4. Installasi DATABASE SERVER
-**Langkah 1:1.	Perbarui daftar paket dengan perintah**
-```
-sudo apt update
-```
-
-**Langkah 2:Installasi apache 2 dengan perintah**
-```
-sudo apt install apache2 -y
-```
-- samakan dengan foto di bawah
-  
-**Langkah 3:3.Lakukan instalasi paket**
+**Langkah 3:Lakukan instalasi paket**
 ```
 sudo apt-get install phpmyadmin
 ```
--lakukan langkah seperti di foto:
-
 
 **Langkah 4:Restart ulang layanan**
 ```
 sudo systemctl restart apache2
 ```
 **Langkah 5:CEK KONFIGURASI**
-- Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
+5.	Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
 
 ## 5.Installasi SAMBA
 **Langkah 1:Memperbarui daftar paket dengan perintah**
