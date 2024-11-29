@@ -108,7 +108,8 @@ sudo systemctl start apache2
 ```
 **Langkah 5:5.	Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”**
 - contoh ip saya:192.168.1.3
-  
+  ![23](https://github.com/user-attachments/assets/a90e2a6c-dd81-4b99-a381-a4eb3c1e3f4b)
+
 ## 4. Installasi DATABASE SERVER
 **Langkah 1:Installasi paket mariadb**
 ```
