@@ -4,11 +4,11 @@
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 ## Daftar Isi
-1. [Installasi OPEN SSH SERVER](#1.-Instalasi-OPEN-SSH-SERVER)
-2. [Installasi MY-SQL SERVER](#2.-Instalasi-MYSQL-SERVER)
-3. [Installasi APACHE2](#3.-Instalasi-APACHE2)
-4. [Installasi DATABASE SERVER](#4.-Instalasi-DATABASE-SERVER)
-5. [Installasi SAMBA](#5.-Instalasi-SAMBA)
+1. [Installasi OPEN SSH SERVER](#1.-Installasi-OPEN-SSH-SERVER)
+2. [Installasi MY-SQL SERVER](#2.-Installasi-MY-SQL-SERVER)
+3. [Installasi APACHE2](#3.-Installasi-APACHE2)
+4. [Installasi DATABASE SERVER](#4.-Installasi-DATABASE-SERVER)
+5. [Installasi SAMBA](#5.-Installasi-SAMBA)
 
 6. ## 1. Instalasi OPEN SSH Server
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
