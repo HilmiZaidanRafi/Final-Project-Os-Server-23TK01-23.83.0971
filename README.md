@@ -10,7 +10,7 @@
 4. [Installasi DATABASE SERVER](#4.-Installasi-DATABASE-SERVER)
 5. [Installasi SAMBA](#5.-Installasi-SAMBA)
 
-6. ## 1. Instalasi OPEN SSH Server
+## 1. Instalasi OPEN SSH Server
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
 
 ```
@@ -40,9 +40,8 @@ Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username 
 setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ```
 
-8. ## 2. Instalasi MYSQL SERVER
+## 2. Instalasi MYSQL SERVER
  **Langkah 1: 1.	Install mysql server dengan perintah**
-
 ```
 sudo apt install mysql-server -y
 ```
@@ -51,7 +50,6 @@ sudo apt install mysql-server -y
 sudo apt install php libapache2-mod-php phpmysq
 ```
 **Langkah 3: 3.	Membuka File Konfigurasi Direktori Apache dengan perintah**
-
 ```
 sudo nano /etc/apache2/mods-enabled/dir.con
 ```
@@ -65,6 +63,7 @@ sudo nano /var/www/html/info.php
 <?php
 
 phpinfo ();
+
 ?>
 ```
 
@@ -72,6 +71,54 @@ phpinfo ();
 - Buka pada google chrome pada windows <ip addres ubuntu server/info.php>
 - cth :192.168.1.3/info.php
   
-10. ## 3. Instalasi APACHE2
-11. ## 4. Instalasi DATABASE SERVER
-12. ## 5.Instalasi SAMBA
+## 3. Instalasi APACHE2
+**Langkah 1:Installasi paket mariadb**
+```
+sudo apt-get update
+sudo apt-get install mariadb-server
+```
+
+**Langkah 2:Untuk mengamankan installasi (Opsional)**
+```
+sudo mysql_secure_installation
+```
+
+**Langkah 3:Memulai layanan server apahe2 dengan perintah**
+```
+sudo systemctl start apache2
+```
+
+**Langkah 4:Lakukan pengecekan ip addres ubuntu server dengan perintah**
+```
+ip add
+```
+**Langkah 5:CEK KONFIGURASI**
+- Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”
+
+## 4. Instalasi DATABASE SERVER
+**Langkah 1:1.	Perbarui daftar paket dengan perintah**
+```
+sudo apt update
+```
+
+**Langkah 2:Installasi apache 2 dengan perintah**
+```
+sudo apt install apache2 -y
+```
+- samakan dengan foto di bawah
+  
+**Langkah 3:3.Lakukan instalasi paket**
+```
+sudo apt-get install phpmyadmin
+```
+-lakukan langkah seperti di foto:
+
+
+**Langkah 4:Restart ulang layanan**
+```
+sudo systemctl restart apache2
+```
+**Langkah 5:CEK KONFIGURASI**
+- 5.	Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
+
+## 5.Instalasi SAMBA
