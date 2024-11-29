@@ -56,6 +56,7 @@ sudo apt install php libapache2-mod-php phpmysq
 sudo nano /etc/apache2/mods-enabled/dir.con
 ```
 - Tambahkan "index.php" pada di sebelah kanan "DirectoryIndex"
+  
 **Langkah 4: Membuka file bernama “info.php” pada direktori var/www/html**
 ```
 sudo nano /var/www/html/info.php
