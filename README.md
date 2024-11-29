@@ -42,7 +42,6 @@ ip add
 ```
 sudo systemctl status ssh
 ```
-![8](https://github.com/user-attachments/assets/6d2196de-0bdf-418c-b823-04c6a4e3a40d)
 ![9](https://github.com/user-attachments/assets/c01f3b23-618c-4b9f-a9e6-42a8911b431a)
 
 **Langkah 6: Konfigurasi SHH SERVER**
