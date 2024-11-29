@@ -10,7 +10,7 @@
 4. [Installasi DATABASE SERVER](#4.-Installasi-DATABASE-SERVER)
 5. [Installasi SAMBA](#5.-Installasi-SAMBA)
 
-## 1. Instalasi OPEN SSH Server
+## 1. Installasi OPEN SSH Server
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
 
 ```
@@ -40,7 +40,7 @@ Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username 
 setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ```
 
-## 2. Instalasi MYSQL SERVER
+## 2. Installasi MYSQL SERVER
  **Langkah 1: 1.	Install mysql server dengan perintah**
 ```
 sudo apt install mysql-server -y
@@ -71,7 +71,7 @@ phpinfo ();
 - Buka pada google chrome pada windows <ip addres ubuntu server/info.php>
 - cth :192.168.1.3/info.php
   
-## 3. Instalasi APACHE2
+## 3. Installasi APACHE2
 **Langkah 1:Installasi paket mariadb**
 ```
 sudo apt-get update
@@ -95,7 +95,7 @@ ip add
 **Langkah 5:CEK KONFIGURASI**
 - Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”
 
-## 4. Instalasi DATABASE SERVER
+## 4. Installasi DATABASE SERVER
 **Langkah 1:1.	Perbarui daftar paket dengan perintah**
 ```
 sudo apt update
@@ -121,4 +121,4 @@ sudo systemctl restart apache2
 **Langkah 5:CEK KONFIGURASI**
 - Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
 
-## 5.Instalasi SAMBA
+## 5.Installasi SAMBA
