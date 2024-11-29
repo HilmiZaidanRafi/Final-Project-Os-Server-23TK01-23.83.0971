@@ -11,7 +11,6 @@
 5. [Installasi SAMBA]()
 
 6. ## 1. Instalasi dan Konfigurasi SSH Server
-   ### 1.1 Instalasi SSH
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
 
 ```
