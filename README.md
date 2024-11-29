@@ -43,6 +43,7 @@ ip add
 sudo systemctl status ssh
 ```
 ![8](https://github.com/user-attachments/assets/6d2196de-0bdf-418c-b823-04c6a4e3a40d)
+![9](https://github.com/user-attachments/assets/c01f3b23-618c-4b9f-a9e6-42a8911b431a)
 
 **Langkah 6: Konfigurasi SHH SERVER**
 ```
@@ -52,9 +53,6 @@ setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ![5](https://github.com/user-attachments/assets/51dbafd6-661b-449c-adf9-6561d4781bf0)
 ![6 (2)](https://github.com/user-attachments/assets/9d176305-0c51-4fc8-b00d-89b805bb0651)
 ![7](https://github.com/user-attachments/assets/483c98b2-4a57-4aee-91bd-d04f646325b0)
-![9](https://github.com/user-attachments/assets/c01f3b23-618c-4b9f-a9e6-42a8911b431a)
-
-
 
 ## 2. Installasi MY-SQL SERVER
  **Langkah 1:Install mysql server dengan perintah**
