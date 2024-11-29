@@ -68,16 +68,10 @@ phpinfo ();
 ?>
 ```
 
-**Langkah 5: Cek status SSH SERVER**
-
-```
-sudo systemctl status ssh
-```
-**Langkah 6: Konfigurasi SHH SERVER**
-```
-Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username ubuntu@ip address ubuntu server> contoh:ssh hilmiserver@192.168.1.3
-setelah itu ketik manual "yes" dan masukkan password ubuntu server
-```  
+**Langkah 5: CEK KONFIGURASI**
+- Buka pada google chrome pada windows <ip addres ubuntu server/info.php>
+- cth :192.168.1.3/info.php
+  
 10. ## 3. Instalasi APACHE2
 11. ## 4. Instalasi DATABASE SERVER
 12. ## 5.Instalasi SAMBA
