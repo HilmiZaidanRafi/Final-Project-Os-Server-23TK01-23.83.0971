@@ -1,7 +1,7 @@
 # Final-Project-Os-Server-23TK01-23.83.0971
-Nama:Muhammad Hilmi Zaidan Rafi
-Kelas:23TK01
-Mata Kuliah:OS SERVER dan SISTEM ADMIN
+- Nama:Muhammad Hilmi Zaidan Rafi
+- Kelas:23TK01
+- Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
 ## Daftar Isi
 1. [Installasi OPEN SSH SERVER]()
