@@ -10,7 +10,7 @@
 4. [Installasi DATABASE SERVER](#4.-Installasi-DATABASE-SERVER)
 5. [Installasi SAMBA](#5.-Installasi-SAMBA)
 
-## 1. Installasi OPEN SSH Server
+## 1. Installasi OPEN SSH SERVER
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
 
 ```
@@ -40,7 +40,7 @@ Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username 
 setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ```
 
-## 2. Installasi MYSQL SERVER
+## 2. Installasi MY-SQL SERVER
  **Langkah 1: 1.	Install mysql server dengan perintah**
 ```
 sudo apt install mysql-server -y
@@ -122,3 +122,41 @@ sudo systemctl restart apache2
 - Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
 
 ## 5.Installasi SAMBA
+**Langkah 1:Memperbarui daftar paket dengan perintah**
+
+```
+sudo apt update
+```
+**Langkah 2:Menginstal paket vsftpd (Very Secure FTP Daemon) pada sistem Linux. Dengan perintah**
+```
+sudo apt-get install vsftpd
+```
+**Langkah 3:Membuat direktori baru bernama ‘sambashare” dengan perintah**
+
+```
+sudo mkdir /sambashare
+```
+**Langkah 4:Mengubah izin akses dengan perintah**
+```
+sudo chmod 0777  /sambasahre
+```
+**Langkah 5:Menambah pengguna baru bernama**
+- cth: username “user1” dan membuat password ”0971”
+
+```
+sudo useradd user1
+```
+**Langkah 6:Mengedit file konfigurasi utama dengan perintah**
+```
+sudo nano /etc/samba/smb.conf
+```
+**Langkah 7:Memulai ulang layanan samba dengan perintah**
+```
+ sudo systemctl restart smbd
+ sudo systemctl restart nmbd
+```
+**Langkah 8:Cek status dengan perintah “sudo systemctl status smbd” pastikan muncul tulisan “running”**
+```
+ sudo systemctl status smbd
+```
+**Langkah 9:Buka file eksplorer pada windows,dan pilih bagian “This PC” kemudian ketikkan pada taskbar atas ip add ubuntu server (192.168.1.3) lalu masukkan username dan passwd yang sudah di buat tadi**
