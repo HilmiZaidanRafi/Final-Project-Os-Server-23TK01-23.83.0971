@@ -119,6 +119,6 @@ sudo apt-get install phpmyadmin
 sudo systemctl restart apache2
 ```
 **Langkah 5:CEK KONFIGURASI**
-- 5.	Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
+- Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
 
 ## 5.Instalasi SAMBA
