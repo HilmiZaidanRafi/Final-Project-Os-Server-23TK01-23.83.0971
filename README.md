@@ -10,16 +10,34 @@
 4. [Installasi DATABASE SERVER](#4.-Instalasi-DATABASE-SERVER)
 5. [Installasi SAMBA](#5.-Instalasi-SAMBA)
 
-6. ## 1. Instalasi SSH Server
+6. ## 1. Instalasi OPEN SSH Server
 **Langkah 1: Lakukan Instalasi Paket SSH Server**
 
 ```
-apt-get install openssh-server
+sudo apt install openssh-server -y
 ```
 **Langkah 2: Mengaktifkan Layanan ssh server**
 ```
 sudo systemctl enable ssh
 ```
+**Langkah 3: Memulai Layanan SSH SERVER**
+
+```
+sudo systemctl start ssh
+```
+**Langkah 4: Cek ip ubuntu server**
+```
+ip add
+```
+**Langkah 5: LaCek status SSH SERVER**
+
+```
+sudo systemctl status ssh
+```
+**Langkah 6: Konfigurasi SHH SERVER**
+Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username ubuntu@ip address ubuntu server> contoh:ssh hilmiserver@192.168.1.3
+setelah itu ketik manual "yes" dan masukkan password ubuntu server
+
 
 8. ## 2. Instalasi MYSQL SERVER
 9. ## 3. Instalasi APACHE2
