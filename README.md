@@ -138,7 +138,7 @@ sudo apt-get install phpmyadmin
 sudo systemctl restart apache2
 ```
 **Langkah 5:CEK KONFIGURASI**
-5.	Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
+Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
 ![31](https://github.com/user-attachments/assets/ada112e1-0200-4e5f-b030-0bc5d9e868d1)
 ![32](https://github.com/user-attachments/assets/932ebaa4-3402-4087-aebd-7b81b16857a9)
 
