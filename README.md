@@ -16,29 +16,45 @@
 ```
 sudo apt install openssh-server -y
 ```
+![1](https://github.com/user-attachments/assets/6a8189fc-5d89-4c71-9a4a-6bb6e69af40c)
+
 **Langkah 2: Mengaktifkan Layanan ssh server**
 ```
 sudo systemctl enable ssh
 ```
+![2](https://github.com/user-attachments/assets/da9b1e55-0b0e-42ae-a355-2d7e1d55484e)
+
 **Langkah 3: Memulai Layanan SSH SERVER**
 
 ```
 sudo systemctl start ssh
 ```
+![3](https://github.com/user-attachments/assets/e40eeb9a-ad3a-4ff9-8380-11016c7d07c6)
+
 **Langkah 4: Cek ip ubuntu server**
 ```
 ip add
 ```
+![4](https://github.com/user-attachments/assets/18456680-5cb1-44c6-b834-123958fb672e)
+
 **Langkah 5: Cek status SSH SERVER**
 
 ```
 sudo systemctl status ssh
 ```
+![5](https://github.com/user-attachments/assets/51dbafd6-661b-449c-adf9-6561d4781bf0)
+
 **Langkah 6: Konfigurasi SHH SERVER**
 ```
 Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username ubuntu@ip address ubuntu server> contoh:ssh hilmiserver@192.168.1.3
 setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ```
+![6 (2)](https://github.com/user-attachments/assets/9d176305-0c51-4fc8-b00d-89b805bb0651)
+![7](https://github.com/user-attachments/assets/483c98b2-4a57-4aee-91bd-d04f646325b0)
+![8](https://github.com/user-attachments/assets/6d2196de-0bdf-418c-b823-04c6a4e3a40d)
+![9](https://github.com/user-attachments/assets/c01f3b23-618c-4b9f-a9e6-42a8911b431a)
+
+
 
 ## 2. Installasi MY-SQL SERVER
  **Langkah 1:Install mysql server dengan perintah**
