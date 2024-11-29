@@ -35,9 +35,10 @@ ip add
 sudo systemctl status ssh
 ```
 **Langkah 6: Konfigurasi SHH SERVER**
--Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username ubuntu@ip address ubuntu server> contoh:ssh hilmiserver@192.168.1.3
+```
+Buka CMD pada windows,lakukan konfigurasi pada ubuntu dengan cara <ssh username ubuntu@ip address ubuntu server> contoh:ssh hilmiserver@192.168.1.3
 setelah itu ketik manual "yes" dan masukkan password ubuntu server
-
+```
 
 8. ## 2. Instalasi MYSQL SERVER
 9. ## 3. Instalasi APACHE2
