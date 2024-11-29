@@ -17,9 +17,9 @@
 apt-get install openssh-server
 ```
 **Langkah 2: Mengaktifkan Layanan ssh server**
-'''
+```
 sudo systemctl enable ssh
-'''
+```
 
 8. ## 2. Instalasi MYSQL SERVER
 9. ## 3. Instalasi APACHE2
