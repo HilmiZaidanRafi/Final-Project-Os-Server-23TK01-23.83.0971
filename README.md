@@ -70,6 +70,7 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 sudo nano /var/www/html/info.php
 ```
+- isikan dengan code dibawah
 ```
 <?php
 
