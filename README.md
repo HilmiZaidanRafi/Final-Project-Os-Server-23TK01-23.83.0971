@@ -58,16 +58,21 @@ setelah itu ketik manual "yes" dan masukkan password ubuntu server
 ```
 sudo apt install mysql-server -y
 ```
+![10](https://github.com/user-attachments/assets/79c492ca-8fea-4bcf-ac6a-10a167a15481)
+
 **Langkah 2:Install tumpukan LAMP (Linux, Apache, MySQL, PHP) pada sistem operasi dengan perintah**
 ```
 sudo apt install php libapache2-mod-php phpmysql
 ```
+![11](https://github.com/user-attachments/assets/e15e1acd-a048-4ae7-a0f2-3d5838d57b97)
+
 **Langkah 3:Membuka File Konfigurasi Direktori Apache dengan perintah**
 ```
 sudo nano /etc/apache2/mods-enabled/dir.conf
 ```
 - Tambahkan "index.php" pada di sebelah kanan "DirectoryIndex"
-  
+![12](https://github.com/user-attachments/assets/3daf57bd-e748-4822-a621-a2697830cc84)
+
 **Langkah 4:Membuka file bernama “info.php” pada direktori var/www/html**
 ```
 sudo nano /var/www/html/info.php
@@ -79,11 +84,18 @@ phpinfo ();
 
 ?>
 ```
+![13](https://github.com/user-attachments/assets/bc71d80c-e143-4286-87f4-263067b5e662)
 
 **Langkah 5:CEK KONFIGURASI**
 - Buka pada google chrome pada windows <ip addres ubuntu server/info.php>
 - cth :192.168.1.3/info.php
-  
+![14](https://github.com/user-attachments/assets/37ed295b-9150-4d54-80da-a177dc9e3ac9)
+![15](https://github.com/user-attachments/assets/a36bc300-ee6c-49db-8002-0d86da7eca8f)
+![16](https://github.com/user-attachments/assets/d2d2452c-82c5-4a1d-a49f-3610ec7ec586)
+![17](https://github.com/user-attachments/assets/09d78e4b-6473-4435-9994-f8efce33b653)
+![18](https://github.com/user-attachments/assets/c7119923-5f59-4e86-bb2a-3f155b4154c8)
+
+
 ## 3. Installasi APACHE2
 **Langkah 1:Perbarui daftar paket dengan perintah**
 ```
