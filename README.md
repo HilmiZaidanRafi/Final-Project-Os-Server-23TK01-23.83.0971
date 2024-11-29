@@ -121,11 +121,17 @@ sudo apt-get install mariadb-server
 ```
 sudo mysql_secure_installation
 ```
+![27](https://github.com/user-attachments/assets/1bd2d90e-721f-44f1-8d72-2902ff0dfe91)
+![28](https://github.com/user-attachments/assets/a80b0d07-67fb-4cf4-ae5d-f9da48b6f1ba)
 
 **Langkah 3:Lakukan instalasi paket**
 ```
 sudo apt-get install phpmyadmin
 ```
+![29#1](https://github.com/user-attachments/assets/b299c071-eb17-4fe8-8a36-81b3bb77ec23)
+![29#2](https://github.com/user-attachments/assets/1dd7b1e7-052e-45dc-b345-61eb2a212386)
+![29#3](https://github.com/user-attachments/assets/e45213a0-5731-455c-a605-20769ac4fb1f)
+![29#4](https://github.com/user-attachments/assets/f967ac4d-68df-4ed4-91c4-bd5b73c0ce3a)
 
 **Langkah 4:Restart ulang layanan**
 ```
@@ -133,6 +139,8 @@ sudo systemctl restart apache2
 ```
 **Langkah 5:CEK KONFIGURASI**
 5.	Buka pada browser windows gogole chrome dan ketikkan <ip address ubuntu server/phpmyadmin/> cth:192.168.1.3/phpmyadmin/ 
+![31](https://github.com/user-attachments/assets/ada112e1-0200-4e5f-b030-0bc5d9e868d1)
+![32](https://github.com/user-attachments/assets/932ebaa4-3402-4087-aebd-7b81b16857a9)
 
 ## 5.Installasi SAMBA
 **Langkah 1:Memperbarui daftar paket dengan perintah**
