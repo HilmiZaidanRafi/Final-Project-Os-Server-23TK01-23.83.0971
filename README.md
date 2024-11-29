@@ -167,6 +167,8 @@ sudo chmod 0777  /sambasahre
 ```
 sudo useradd user1
 ```
+![37](https://github.com/user-attachments/assets/40b41835-c4da-4faf-9b41-617f146445ca)
+
 **Langkah 6:Mengedit file konfigurasi utama dengan perintah**
 ```
 sudo nano /etc/samba/smb.conf
@@ -181,3 +183,9 @@ sudo nano /etc/samba/smb.conf
  sudo systemctl status smbd
 ```
 **Langkah 9:Buka file eksplorer pada windows,dan pilih bagian “This PC” kemudian ketikkan pada taskbar atas ip add ubuntu server (192.168.1.3) lalu masukkan username dan passwd yang sudah di buat tadi**
+![42](https://github.com/user-attachments/assets/9b71d66b-6533-4b0f-86f0-dbbeeaa1df00)
+![43](https://github.com/user-attachments/assets/219a9a55-760a-4ab2-bcfa-5f66ee2d82bb)
+![44](https://github.com/user-attachments/assets/3a0d6387-ef5d-4d30-9947-e232c06e5ca0)
+![45](https://github.com/user-attachments/assets/21821aaa-0bed-40bf-a471-31f1490aaf58)
+
+
