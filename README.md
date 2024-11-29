@@ -11,7 +11,13 @@
 5. [Installasi SAMBA]()
 
 6. ## 1. Instalasi dan Konfigurasi SSH Server
-7. ## 2. Instalasi MYSQL SERVER
-8. ## 3. Instalasi APACHE2
-9. ## 4. Instalasi DATABASE SERVER
-10. ## 5.Instalasi SAMBA
+   ### 1.1 Instalasi SSH
+**Langkah 1: Lakukan Instalasi Paket SSH Server**
+
+```
+apt-get install openssh-server
+```
+8. ## 2. Instalasi MYSQL SERVER
+9. ## 3. Instalasi APACHE2
+10. ## 4. Instalasi DATABASE SERVER
+11. ## 5.Instalasi SAMBA
