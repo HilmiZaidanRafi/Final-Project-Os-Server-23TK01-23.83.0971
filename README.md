@@ -1,5 +1,6 @@
 # Final-Project-Os-Server-23TK01-23.83.0971
 - Nama:Muhammad Hilmi Zaidan Rafi
+- Nim:23.83.0971
 - Kelas:23TK01
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
