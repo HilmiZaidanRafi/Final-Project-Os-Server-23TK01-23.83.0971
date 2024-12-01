@@ -159,11 +159,13 @@ sudo mkdir /sambashare
 ```
 sudo chmod 0777  /sambasahre
 ```
-**Langkah 4:Menambah pengguna baru bernama**
+**Langkah 4:Menambah pengguna baru dan membuat password**
 - cth: username “user1” dan membuat password ”0971”
 
 ```
 sudo useradd user1
+sudo passwd user1
+sudo smbpasswd -a user1
 ```
 ![37](https://github.com/user-attachments/assets/40b41835-c4da-4faf-9b41-617f146445ca)
 
