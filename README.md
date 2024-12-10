@@ -10,8 +10,8 @@
   
   - Progres 2:
     
-  - Minggu,8 Desember 2024:Pembuatan Website
-  - Selasa,10 Desember 2024:Publikasi Website
+  Minggu,8 Desember 2024:Pembuatan Website
+  Selasa,10 Desember 2024:Publikasi Website
     
 ## Daftar Isi
 1. [Installasi OPEN SSH SERVER](#1.-Installasi-OPEN-SSH-SERVER)
