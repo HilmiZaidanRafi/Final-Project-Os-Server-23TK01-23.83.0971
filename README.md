@@ -197,4 +197,6 @@ sudo nano /etc/samba/smb.conf
 ![44](https://github.com/user-attachments/assets/3a0d6387-ef5d-4d30-9947-e232c06e5ca0)
 ![45](https://github.com/user-attachments/assets/21821aaa-0bed-40bf-a471-31f1490aaf58)
 
-
+## PUBLIKASI WEBSITE:
+![Cuplikan layar 2024-12-10 132331](https://github.com/user-attachments/assets/5b12a5b5-f6dc-449e-b354-8bf2c55f4943)
+- LINK WEBSITE:https://hilmizaidanrafi.github.io/Penjualan-Tiket-Konser-0971/
