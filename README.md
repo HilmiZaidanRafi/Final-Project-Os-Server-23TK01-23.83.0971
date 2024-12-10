@@ -4,10 +4,13 @@
 - Kelas:23TK01
 - Mata Kuliah:OS SERVER dan SISTEM ADMIN
 
-  Progres 1:
+  - Progres 1:
   Sabtu,30 November 2024:Instalasi 5 layanan server pada ubuntu server dan penentuan judul website (Penjualan Tiket Konser)
-  Progres 2:
-  Minggu,8 Desember 2024:Pembuatan Website dan Publikasi
+  
+  - Progres 2:
+  Minggu,8 Desember 2024:Pembuatan Website
+  - Selasa,10 Desember 2024:Publikasi Website
+    
 ## Daftar Isi
 1. [Installasi OPEN SSH SERVER](#1.-Installasi-OPEN-SSH-SERVER)
 2. [Installasi MY-SQL SERVER](#2.-Installasi-MY-SQL-SERVER)
