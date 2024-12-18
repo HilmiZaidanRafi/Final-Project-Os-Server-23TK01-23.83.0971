@@ -16,7 +16,7 @@
   - Senin,16 Desember 2024:Publikasi Website Di Layanan Server
     
 ## Daftar Isi
-1. [Installasi OPEN SSH SERVER](#1.-Installasi-OPEN-SSH-SERVER)
+1. [Installasi OPEN SSH SERVER](#1-Installasi-open-ssh-server)
 2. [Installasi MY-SQL SERVER](#2.-Installasi-MY-SQL-SERVER)
 3. [Installasi APACHE2](#3.-Installasi-APACHE2)
 4. [Installasi DATABASE SERVER](#4.-Installasi-DATABASE-SERVER)
