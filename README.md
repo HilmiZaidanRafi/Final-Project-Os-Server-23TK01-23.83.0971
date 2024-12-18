@@ -122,7 +122,48 @@ sudo systemctl start apache2
 **Langkah 5:Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”**
 - contoh ip saya:192.168.1.3
   ![23](https://github.com/user-attachments/assets/a90e2a6c-dd81-4b99-a381-a4eb3c1e3f4b)
+**Langkah 6:Menyalin github**
+   ```
+   sudo apt install git
+   sudo git clone https://github.com/HilmiZaidanRafi/Penjualan-Tiket-Konser-0971.git
+   ```
+**Langkah 7:Membuat Direktori**
+```
+sudo mkdir -p /var/www/server1
+```
+**Langkah 8: Konfigurasi apache2***
+```
+sudo nano /etc/apache2/sites-available/server1.conf
+```
+**Langkah 9:Konfigurasi Apache2**
+```
+sudo mkdir -p /var/www/server1/Penjualan-Tiket-Konser-0971.git
+```
 
+isi punya saya:
+<VirtualHost *:80>
+    ServerAdmin admin@192.168.31.176
+    DocumentRoot /var/www/server1/Penjualan-Tiket-Konser-0971
+    ServerName 192.168.31.176
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+**Langkah 9:Mengaktifkan Kembali Konfigurasi**
+```
+sudo a2ensite server1.conf
+sudo systemctl reload apache2
+```
+**Langkah 10:Buka Firewall HTTP**
+```
+sudo ufw allow 'Apache'
+sudo ufw status
+```
+**Langkah 11:Memastikan direktori memiliki hak ases**
+```
+sudo chown -R www-data:www-data /var/www/server1/Penjualan-Tiket-Konser-0971
+sudo chmod -R 755 /var/www/server1/Penjualan-Tiket-Konser-0971
+```
 ## 4. Installasi DATABASE SERVER
 **Langkah 1:Installasi paket mariadb**
 ```
