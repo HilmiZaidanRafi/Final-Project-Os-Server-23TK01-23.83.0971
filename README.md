@@ -147,7 +147,7 @@ isi punya saya:
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-
+```
 **Langkah 9:Mengaktifkan Kembali Konfigurasi**
 ```
 sudo a2ensite server1.conf
