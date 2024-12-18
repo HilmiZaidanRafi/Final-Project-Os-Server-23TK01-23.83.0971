@@ -8,8 +8,7 @@
     
   - Sabtu,30 November 2024:Instalasi 5 layanan server pada ubuntu server dan penentuan judul website (Penjualan Tiket Konser)
   
-   ##Progres 2:
-    
+   ##Progres 2:    
   - Minggu,8 Desember 2024:Pembuatan Website
   - Selasa,10 Desember 2024:Publikasi Website Di github
     
@@ -122,6 +121,7 @@ sudo systemctl start apache2
 **Langkah 5:Buka pada browser google chrome pada windows dan ketikkan ip addres tadi “192.168.1.3”**
 - contoh ip saya:192.168.1.3
   ![23](https://github.com/user-attachments/assets/a90e2a6c-dd81-4b99-a381-a4eb3c1e3f4b)
+  
 **Langkah 6:Menyalin github**
    ```
    sudo apt install git
