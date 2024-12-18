@@ -138,7 +138,6 @@ sudo nano /etc/apache2/sites-available/server1.conf
 **Langkah 9:Konfigurasi Apache2**
 ```
 sudo mkdir -p /var/www/server1/Penjualan-Tiket-Konser-0971.git
-```
 
 isi punya saya:
 <VirtualHost *:80>
