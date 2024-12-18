@@ -163,6 +163,9 @@ sudo ufw status
 sudo chown -R www-data:www-data /var/www/server1/Penjualan-Tiket-Konser-0971
 sudo chmod -R 755 /var/www/server1/Penjualan-Tiket-Konser-0971
 ```
+
+**TES HASIL KONFIGURASI**
+GUNAKAN IP :192.168.31.176
 ## 4. Installasi DATABASE SERVER
 **Langkah 1:Installasi paket mariadb**
 ```
