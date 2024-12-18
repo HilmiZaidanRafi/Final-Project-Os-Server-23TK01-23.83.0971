@@ -166,6 +166,8 @@ sudo chmod -R 755 /var/www/server1/Penjualan-Tiket-Konser-0971
 
 **TES HASIL KONFIGURASI**
 GUNAKAN IP :192.168.31.176
+![image](https://github.com/user-attachments/assets/d8047011-7195-42d7-bef0-319dc58cf654)
+
 ## 4. Installasi DATABASE SERVER
 **Langkah 1:Installasi paket mariadb**
 ```
