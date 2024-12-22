@@ -13,7 +13,10 @@
   - Selasa,10 Desember 2024:Publikasi Website Di github
     
    ##Progres 3:
-  - Senin,16 Desember 2024:Publikasi Website Di Layanan Server
+  - Rabu,18 Desember 2024:Publikasi Website Di Layanan Server (apache2)
+
+   ##Progres 4:
+  - Minggu,22 Desember 2024:Installasi grafana
     
 ## Daftar Isi
 1. [Installasi OPEN SSH SERVER](#1-Installasi-open-ssh-server)
