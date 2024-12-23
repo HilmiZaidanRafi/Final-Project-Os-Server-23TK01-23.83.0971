@@ -17,6 +17,7 @@
 
    ##Progres 4:
   - Minggu,22 Desember 2024:Installasi grafana
+    
     yang dah jadi:apsche2,nginx,grafana
 ## Daftar Isi
 1. [Installasi OPEN SSH SERVER](#1-Installasi-open-ssh-server)
